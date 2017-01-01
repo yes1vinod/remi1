@@ -13,7 +13,7 @@ public class HibernateTest {
 		session.beginTransaction();
 
 		CustomerDetail customerDetails = new CustomerDetail();
-		customerDetails.setComments("Comments :want to inquire about your service");
+		customerDetails.setComments("Comments :new comment");
 
 		customerDetails.setEmail("vinod1.s@Tcs.com");
 		customerDetails.setFirstName("vinod");
