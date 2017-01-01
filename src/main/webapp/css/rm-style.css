@@ -1,0 +1,280 @@
+.title-font {
+    font-family: Edwardian Script ITC;
+    font-size: 4em;
+    color: #D27F03;
+}
+
+.title-font-big {
+    font-family: Edwardian Script ITC;
+    font-size: 4em;
+    padding-top: .5em;
+    color: #D27F03;
+}
+
+.banner-caption-text1 {
+    font-family: Calibri Light;
+    font-size: .5em;
+    color: #FF0;
+}
+
+.cutom-padding1 {
+    padding: .8em;
+}
+
+.rm-center-text-align {
+    text-align: center;
+}
+
+
+
+.how-it-works-background {
+    display: inline-block;
+    background-color: #dff0d8;
+    padding: 22px;
+    border-radius: 70px;
+    box-shadow: 0 0 2px #888;
+}
+
+.file-upload {
+    color: #146B34;
+}
+
+.gear {
+    color: #31708F;
+}
+
+.video {
+    color: #A94442;
+}
+
+.easySteps H4 {
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px;
+    font-family: Lucida Bright,Georgia,serif;
+    font-color: #030;
+}
+
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+#fade-quote-carousel.carousel {
+    padding-bottom: 60px;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-inner .active {
+    opacity: 1;
+    -webkit-transition-property: opacity;
+    -ms-transition-property: opacity;
+    transition-property: opacity;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators {
+    bottom: 10px;
+}
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #e84a64;
+    border: none;
+}
+
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+.flex-container-contactus {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    width: 100%;
+    padding: 10px 5%;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.flex-container-contact-item {
+    padding: 5px;
+    width: 80%;
+    margin: 5px;
+    font-color:fff;
+}
+
+
+
+.flex-container-collage{
+ display: -webkit-flex;
+    display: flex;
+
+    width: 100%;
+  
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.flex-container-collage-item-cboard{
+ width: 50%;
+ height:50%;
+	
+}
+.flex-container-collage-item{
+    width: 300px;
+align-self:center;
+  margin:2px;
+	
+    
+}
+
+#sample{
+background-color:#F0F0F0 ;
+}
+
+.flex-container-getStarted {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    width: 100%;
+    padding: 10px 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-item-getStarted {
+    width: 300px;
+    margin: 10px;
+}
+
+.flex-item-getStarted H4 {
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 10px;
+    font-family: Lucida Bright,Georgia,serif;
+    font-color: #030;
+}
+
+.rm-fb-like {
+    background-color: #3b5998;
+    padding: 13px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+}
+
+.blackbground {
+    background-color: #000;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+@media(min-width: 850px) {
+    .header {
+        background-image: url(../images/heading1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .alignment{
+      align:right;
+    }
+
+    .banner-text1 {
+        font-family: Papyrus;
+        margin: .5em 8em;
+        font-weight: 700;
+        font-size: 2em;
+        color: #000;
+    }
+
+    .banner-text2 {
+        font-family: Papyrus;
+        margin: .5em 8em;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: #000;
+    }
+		blockquote {
+    font-family: French Script MT;
+    font-size: 2vw;
+}
+H4 {
+    color: #FF0040;
+    font-family: Amerika;
+    font-size: 2vw;
+}
+.subsection h3 {
+    font-family: 'Orbitron',sans-serif;
+    color: #FF8300;
+    font-size: 2vw;
+    padding: 30px 0 10px;
+    text-transform: uppercase;
+}
+}
+
+@media(max-width: 850px) {
+    .header {
+    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-text1 {
+        display: none;
+    }
+	blockquote {
+    font-family: Lucida Handwriting;
+    font-size: 2vw;
+}
+H4 {
+    color: #FF0040;
+    font-family: Amerika;
+    font-size: 2vw;
+}
+.subsection h3 {
+    font-family: 'Orbitron',sans-serif;
+    color: #FF8300;
+    font-size: 3vw;
+    padding: 30px 0 10px;
+    text-transform: uppercase;
+}
+}
+
+@media(max-width: 1200px) {
+    .title-font {
+        display: none;
+    }
+}
+
+.yellowIcon {
+    color: #ff0;
+}
+
+
+
